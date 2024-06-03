@@ -1,0 +1,133 @@
+body{
+    background-color: #7AB1C0;
+
+}
+
+.container{
+    box-sizing: border-box;
+    display: flex;
+    height: 600px;
+    width: 600px;
+    border: 20px solid #000000;
+    border-radius: 40px;
+    text-align: center;
+    position: absolute;
+    left: 10px;
+    top: 200px;
+    background-color: gray;
+}
+
+.form{
+    position: relative;
+    margin-top:230px ;
+    left:  100px;
+}
+
+.cont2{
+    background-color: #ECFF9A;
+    
+    height: 190px;
+    width: 588px;
+    right: 1px;
+    border-bottom: 8px solid #000000;
+    border-radius: 40px;
+    position: absolute;
+}
+
+.cont2:hover{
+    background: #FDFC47;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24FE41, #FDFC47);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24FE41, #FDFC47); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+
+.logo{
+    border-radius: 20px;
+    position: relative;
+    top: 8px;
+    height: 125px;
+    width: 150px;
+    right: 220px;
+}
+ .container, form label{
+     position: relative;
+     bottom: 4px;
+     font-size: 20px;
+ }
+
+ .container  h1{
+    letter-spacing: 10px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 38px;
+    position: relative;
+    bottom: 10px;
+ }
+
+ .container input{
+     width: 220px;
+     height: 30px;
+     text-align: center;
+     border-radius: 30px;
+     border:2px solid #000000;
+ }
+
+ .usuario{
+     bottom: 190px;
+     right: 220px;
+     position: relative;
+ }
+
+ .contraseña{
+    bottom: 101px;
+    right: 190px;
+    position: relative;
+ }
+ 
+ .boton1{
+     height: 44px;
+     width: 112px;
+     background-color: #D32C78;
+     border-radius: 15px;
+     border: 3px solid #000000;
+     color: #000000;
+     font-weight: 700;
+   
+ }
+
+ .boton2{
+    height: 44px;
+    width: 130px;
+    background-color:#D32C78 ;
+    position: relative;
+    left: 50px;
+    border-radius: 15px;
+    border: 3px solid #000000;
+    color: #000000;
+    font-weight: 700;
+ }
+
+ .boton1:hover{
+    background-color:rgb(161, 231, 161) ;
+ }
+
+ .boton2:hover{
+    background-color:rgb(161, 231, 161) ;
+}
+
+.containerr{
+
+    box-sizing: border-box;
+    display: flex;
+    height: 600px;
+    width: 600px;
+    border: 6px solid #000000;
+    border-radius: 40px;
+    text-align: center;
+    position: absolute;
+    left: 10px;
+    top: 200px;
+    background-color: gray;
+}
+
+
